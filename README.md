@@ -8,8 +8,10 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## About Project
 
+I used bootsrap and fontawesome for css and icons
 Firstly, I created a folder named "component" and there I created a component named header for header.
 Then, I created Products component which shows list of products, that list of products is fetched from api.service.
+Then, carts component which shows items in cart, the operations will be handled through cart.service
 
 
 ## Code scaffolding
