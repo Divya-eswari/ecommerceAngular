@@ -1,0 +1,19 @@
+<header >
+<div class="navbar navbar-dark bg-primary shadow-sm">
+    <div class="navbar-brand align-item-center d-flex">
+        <!--the below is the shipping vehicle icon from fontawesome-->
+        <i  style ="font-size:22px;color: white;margin-left: 412px;margin-top:8px"class="fas fa-shipping-fast">&nbsp;
+        </i>
+        <strong style ="font-size:25px;color: white;margin-left: 50px;">Ecommerce Website</strong>          
+    </div>
+    
+    <!--the below is the cart icon button which navigates to the cart route when clicked-->
+    <button class="btn btn-light">
+    <!--the below is the cart icon from fontawesome-->
+    <i style ="font-size:30px;"routerLink="/cart" class ="fas fa-cart-plus"></i>
+        <!--total item number is interpolated-->
+        <div style ="font-size:10px;" class ="badge bg-success">{{totalItem}}</div> 
+    </button>         
+</div>
+</header>
+
